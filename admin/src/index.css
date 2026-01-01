@@ -1,0 +1,8 @@
+body { background-color: #d6f1ea; }  /* soft mint */
+/* index.css */
+
+.sidebar .nav-link.active {
+  background-color: #ffefef;
+  border-color: #c586a5 !important;
+  color: #000 !important;
+}
