@@ -16,8 +16,10 @@ const Login = ({ setToken }) => {
 
       const res = await axios.post(
        // `${backendUrl}/api/user/admin/login`,
+
         backendUrl + "/api/user/admin/login",
-        { email, password }
+        { email, password },
+        console.log("backend",backendUrl)
       );
       if (res.data?.success && res.data?.token) {
         setToken(res.data.token);
