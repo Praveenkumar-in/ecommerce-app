@@ -65,3 +65,19 @@ body {
 .badge-bounce {
   animation: cart-bounce 500ms ease-out;
 }
+.admin-link {
+  font-weight: 500;
+}
+
+.admin-link:hover {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.admin-link i {
+  transition: transform 0.2s ease;
+}
+
+.admin-link:hover i {
+  transform: scale(1.1);
+}
