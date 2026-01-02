@@ -2,7 +2,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_BASE = import.meta.env.VITE_API_BASE
+const API_BASE = import.meta.env.VITE_BACKEND_URL
+//console.log("api",API_BASE)
 // || 
 //"http://localhost:4000/api/user";
 // Examples:
