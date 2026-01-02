@@ -24,14 +24,11 @@ app.use(express.json())
 //app.use(cors())
 
 
+
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-       "https://ecommerce-frontendcn.vercel.app"
-    ],
+    origin: "*",   // ✅ TEMPORARY: allow all origins
     methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true
   })
 );
 // api endpoints
@@ -50,7 +47,6 @@ app.get('/api', (req, res) => {
 
 
 //app.listen(port,()=>console.log('Server started on PORT:'+ port))
-
 export default app;
 
 
