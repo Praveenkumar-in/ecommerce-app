@@ -2,7 +2,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_BASE = import.meta.env.VITE_BACKEND_URL
+
+const API_BASE = import.meta.env.VITE_BACKEND_URL;
 
 console.log("api",API_BASE)
 const Login = () => {
