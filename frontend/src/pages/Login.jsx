@@ -3,15 +3,8 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const API_BASE = import.meta.env.VITE_BACKEND_URL
-//console.log("api",API_BASE)
-// || 
-//"http://localhost:4000/api/user";
-// Examples:
-//   VITE_API_BASE=http://localhost:4000/api/user
-// Final URLs become:
-//   POST {API_BASE}/login
-//   POST {API_BASE}/register
 
+console.log("api",API_BASE)
 const Login = () => {
   const navigate = useNavigate();
 
