@@ -17,9 +17,9 @@ const Orders = () => {
       setLoading(true);
 
       const res = await axios.post(
-       ` ${backendUrl}/api/order/list`
-      );
+        backendUrl + "/api/order/list",
 
+      );
       if (res.data?.success) {
         setOrders(res.data.orders || []);
       } else {
@@ -37,7 +37,7 @@ const Orders = () => {
   const updateStatus = async (orderId, status) => {
     try {
       const res = await axios.post(
-      `  ${backendUrl}/api/order/status`,
+        `  ${backendUrl}/api/order/status`,
         { orderId, status }
       );
 

@@ -13,7 +13,11 @@ const Login = ({ setToken }) => {
     if (!email || !password) return toast.error("Enter email & password");
     try {
       setBusy(true);
-      const res = await axios.post(`${backendUrl}/api/user/admin/login`, { email, password });
+
+      const res = await axios.post(
+        backendUrl + "/api/user/admin/login",
+        { email, password }
+      );
       if (res.data?.success && res.data?.token) {
         setToken(res.data.token);
         toast.success("Logged in");

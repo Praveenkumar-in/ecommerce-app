@@ -177,6 +177,7 @@ const fetchList = async () => {
           </div>
         ))}
       </div>
+      
 
       {/* DESKTOP VIEW */}
       <div className="d-none d-md-block">
