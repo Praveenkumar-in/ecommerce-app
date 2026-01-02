@@ -58,7 +58,7 @@ const Login = () => {
 
     try {
       const url =
-        mode === "Login" ? `${API_BASE}/login` : `${API_BASE}/register`;
+        mode === "Login" ? `${API_BASE}/api/user/login` : `${API_BASE}/api/user/register`;
 
       // Backend expects { name, email, password } for register
       const payload =
