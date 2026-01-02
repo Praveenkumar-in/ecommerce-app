@@ -15,8 +15,8 @@ const Login = ({ setToken }) => {
       setBusy(true);
 
       const res = await axios.post(
-        `${backendUrl}/api/user/admin/login`,
-        //backendUrl + "/api/user/admin/login",
+       // `${backendUrl}/api/user/admin/login`,
+        backendUrl + "/api/user/admin/login",
         { email, password }
       );
       if (res.data?.success && res.data?.token) {
