@@ -154,7 +154,7 @@ const fetchList = async () => {
 
   return (
     <>
-      <h5>All Products</h5>
+      <h5>All Listed Products</h5>
 
       {/* MOBILE VIEW */}
       <div className="d-md-none">
