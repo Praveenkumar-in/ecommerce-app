@@ -15,4 +15,4 @@ Full-stack e-commerce application built using the MERN stack.
 - Order flow
 
 ## Live Demo
-https://ecommerce-frontend.vercel.app/
+https://ecommerce-frontendcn.vercel.app/
