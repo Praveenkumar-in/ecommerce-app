@@ -25,8 +25,7 @@ This project is licensed under the MIT License © 2026 Praveen Kumar
 
 Praveen Kumar
 
-- Creator of HireX – Job Portal Web App
-- Built using React & Bootstrap
+- Creator of cartnest –  e-commerce Web App
 - Passionate about Web Development
 
 - 📌 GitHub: https://github.com/Praveenkumar-in/ecommerce-app
